@@ -8,9 +8,6 @@ class EditUser extends LitElement {
   }
   render() {
     return html` 
-    ${sessionStorage.getItem("name") ? 
-        html`<p>${sessionStorage.getItem("name") }</p>` : 
-        html``} 
    
    <form> 
     <input type="text" name="email" placeholder ="Email"> 
